@@ -1,0 +1,121 @@
+/*
+
+Theme Name: Hidden Layer
+
+Theme URI: 
+
+Author: Maxim Shershnev
+
+Description: -
+
+Version: 1.4
+
+License: GNU General Public License v2 or later
+
+
+
+*/
+
+img {
+    max-width: 100%;
+}
+
+div.trailer_video {
+   overflow: hidden;
+   padding-bottom: 56.25%;
+   position: relative;
+   height: 0;
+}
+
+div.trailer_video iframe {
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+
+pre {
+	font-size: 14px;	
+}
+
+/* -----------------------------------------
+|        Presskit                           |
+------------------------------------------ */
+
+body.page-id-109 .c-block--text {
+   width: 960px;
+}
+
+body.page-id-109 .c-hero__logo {
+   display: none;
+}
+
+.presskit {
+	float:left;
+}
+
+#press_team, #press_credits {
+	width: 50%;
+}
+
+#press_videos p {
+   margin-bottom: 0;
+   margin-top: 1.5em;
+}
+
+.press_wrapper {
+	padding-top:30px;
+}
+
+.press_wrapper p {
+	font-size: 16px;
+}
+
+.press_wrapper li {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+.press_wrapper h1 {
+	font-size: 24px !important;
+        margin-bottom: 10px;
+}
+
+#press_toc {
+	width: 16.667%;
+}
+
+#press_toc p {
+	line-height: 2.8em;
+}
+
+#press_body {
+	width:83.3333%;
+}
+
+#press_top_logo {
+   text-align:center;
+}
+
+#press_body_full {
+	padding-left:25px;
+	padding-right:25px;
+}
+
+#press_factsheet {
+	width:30%;
+}
+
+#press_description {
+	display:grid;
+}
+
+#press_credits p {
+   font-size: 14px;
+}
+
+.steam_cap {
+    margin-bottom: -30px !important;	
+	text-align: center;
+}
